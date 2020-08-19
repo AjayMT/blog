@@ -150,7 +150,7 @@ $$
 </details>
 
 I like to think of triangle similarity as the process of 'scaling' a triangle up or down.
-For example, the triangle \\(DEF\\) is always similar to the triangle \\(ABC\\) in the
+For example, the triangle \\(ADE\\) is always similar to the triangle \\(ABC\\) in the
 following image:
 
 <p style="text-align:center;">
