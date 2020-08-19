@@ -21,8 +21,8 @@ Triangles \(ABC\) and \(DEF\) are similar (denoted \(ABC \sim DEF\)) iff
 In other words, two triangles are similar when their corresponding angles
 are equal.
 
-Notice that the order of vertices of each triangle is important: \(ABC\),
-\(BCA\) and \(ACB\) are all different triangles in the context of similarity.
+Notice that the order of vertices of each triangle is important: \\(ABC\\),
+\\(BCA\\) and \\(ACB\\) are all different triangles in the context of similarity.
 
 Similar trangles exhibit an important property that relates the lengths of their
 sides:
@@ -187,5 +187,5 @@ We know that the right angles are equal, and we also know that angle \(A\) is th
 By the angle sum property, the third angles (\(\angle DBA\) and \(\angle ACB\)) must be equal.</p>
 
 <p>Similarly, we can prove that \(\triangle BDC \sim \triangle ABC\). Proving this also gives us
-\(triangle BDC \sim \triangle ADB\), which completes the whole proof. \(\square\)</p>
+\(\triangle BDC \sim \triangle ADB\), which completes the whole proof. \(\square\)</p>
 </details>
