@@ -22,7 +22,7 @@ title: Ajay's Blog
 email: ajaymt2@illinois.edu
 description: >- # this means to ignore newlines until "baseurl:"
   =]
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ajaymt.github.io"
 twitter_username: ATatachar
 github_username: AjayMT
