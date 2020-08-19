@@ -184,8 +184,8 @@ This is a simple exercise in applying the angle sum property -- I encourage you 
 
 <p>We will first prove that \(\triangle ADB \sim \triangle ABC\).
 We know that the right angles are equal, and we also know that angle \(A\) is the same.
-By the angle sum property, the third angles (\(\angle DBA\) and \(\angle \ACB)) must be equal.</p>
+By the angle sum property, the third angles (\(\angle DBA\) and \(\angle ACB\)) must be equal.</p>
 
 <p>Similarly, we can prove that \(\triangle BDC \sim \triangle ABC\). Proving this also gives us
-\(triangle BDC \sim \triangle ADB\), which completes the whole proof.\(\square\)</p>
+\(triangle BDC \sim \triangle ADB\), which completes the whole proof. \(\square\)</p>
 </details>
