@@ -59,7 +59,7 @@ lies on segment \(AB\) and \(F\) lies on segment \(CA\).</p>
 <img src="/blog/assets/triangle-1.png" width="300em" />
 </p>
 
-<p>Euclid's fifth postulate and the fact that
+<p>Euclid's fifth axiom and the fact that
 \(\angle FEB + \angle ABC = 180^{\circ}\)
 imply that \(EF\) and \(BC\) are parallel.</p>
 <p>We will connect points \(B\) and \(F\) and construct a
