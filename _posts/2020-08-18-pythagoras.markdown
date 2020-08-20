@@ -14,7 +14,7 @@ similar triangles.
 To prove this statement, we first have to define *similarity*:
 
 <p style="text-align:center;">
-Triangles \(ABC\) and \(DEF\) are similar (denoted \(ABC \sim DEF\)) iff
+Triangles \(ABC\) and \(DEF\) are similar (denoted \(\triangle ABC \sim \triangle DEF\)) iff
 \(\angle A = \angle D \land \angle B = \angle E \land \angle C = \angle F\).
 </p>
 
@@ -102,7 +102,7 @@ corresponding angles are equal and we are done.</p>
 
 <p>We will assume without loss of generality that segment \(DE\) is shorter than
 segment \(AB\). This means that \(FD\) is shorter than \(CA\), and \(EF\) is shorter
-than \(BC\)</p>
+than \(BC\).</p>
 
 <p>We can place a point \(G\) on \(AB\) such that \(AG = DE\) and a point \(H\) on
 \(CA\) such that \(HA = FD\).</p>
@@ -146,8 +146,9 @@ $$
 $$
 
 <p>Therefore, we have \(\triangle ABC \sim \triangle DEF\). This completes the proof. \(\square\)</p>
-
 </details>
+
+<br />
 
 I like to think of triangle similarity as the process of 'scaling' a triangle up or down.
 For example, the triangle \\(ADE\\) is always similar to the triangle \\(ABC\\) in the
@@ -158,6 +159,7 @@ following image:
 </p>
 
 Now that we have defined triangle similarity, we are ready to prove Pythagoras' Theorem.
+We want to prove that \\((AB)^2 + (BC)^2 = (AC)^2\\).
 
 <p style="text-align:center;">
 <img src="/blog/assets/triangle-6.png" width="300em" />
@@ -169,23 +171,45 @@ We will start by constructing a perpendicular to line \\(AC\\) from \\(B\\):
 <img src="/blog/assets/triangle-7.png" width="300em" />
 </p>
 
-(We are assuming that the perpendicular to \\(AC\\) actually lies within the triangle.
-Intuitively, this makes perfect sense -- I have included a proof of it anyways:
-<details>
-<summary>Proof</summary>
-TODO
-</details>)
-
 Now we will try to prove that triangles \\(ADB\\), \\(BDC\\) and \\(ABC\\) are all similar to each other.
-This is a simple exercise in applying the angle sum property -- I encourage you to try it yourself =]
+This is a simple exercise in applying the angle sum property -- I encourage you to try it yourself.
 
 <details>
 <summary>Proof</summary>
 
 <p>We will first prove that \(\triangle ADB \sim \triangle ABC\).
 We know that the right angles are equal, and we also know that angle \(A\) is the same.
-By the angle sum property, the third angles (\(\angle DBA\) and \(\angle ACB\)) must be equal.</p>
+By the angle sum property, the third angles (\(\angle DBA\) and \(\angle ACB\)) must be equal,
+so \(\triangle ADB \sim \triangle ABC\).</p>
 
 <p>Similarly, we can prove that \(\triangle BDC \sim \triangle ABC\). Proving this also gives us
 \(\triangle BDC \sim \triangle ADB\), which completes the whole proof. \(\square\)</p>
 </details>
+
+<br />
+
+This gives us the following equalities:
+
+$$
+\triangle ADB \sim \triangle ABC \implies \frac{AD}{AB} = \frac{AB}{AC}
+$$
+
+$$
+\triangle BDC \sim \triangle ABC \implies \frac{BC}{AC} = \frac{DC}{BC}
+$$
+
+We also know that \\(AD + DC = AC\\). All we need to do is apply some algebra:
+
+$$
+\frac{AD}{AB} = \frac{AB}{AC} \implies (AB)^2 = (AD)(AC)
+$$
+
+$$
+\frac{BC}{AC} = \frac{DC}{BC} \implies (BC)^2 = (AC)(DC)
+$$
+
+$$
+(AB)^2 + (BC)^2 = (AD)(AC) + (AC)(DC) = (AC)(AD + DC) = (AC)^2
+$$
+
+And we're done! \\(\square\\)
