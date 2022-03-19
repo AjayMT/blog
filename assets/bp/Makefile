@@ -5,7 +5,7 @@ bp-random: bp-random.c
 bp-same: bp-same.c
 
 bp-random bp-same:
-	cc -O0 -o $@ $@.c
+	cc -std=c99 -O0 -o $@ $@.c
 
 .PHONY: clean
 clean:
