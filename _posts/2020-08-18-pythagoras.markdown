@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_math
 title:  "Proving Pythagoras' Theorem with Similar Triangles"
 date:   2020-08-18 00:00:00 -0500
 categories: math
