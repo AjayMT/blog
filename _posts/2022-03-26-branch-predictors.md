@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Branch Predictors"
-date:   2022-03-15 14:40:33 -0500
+date:   2022-03-26 17:58:00 -0500
 categories: hardware
 ---
 
