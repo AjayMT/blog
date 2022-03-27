@@ -47,7 +47,7 @@ branch-less program:
 
 ```c
 main:
-  add r1, r2, r3   // r1 = r2 + r3
+  add r1, r2, r6   // r1 = r2 + r6
   mul r3, r2, r3   // r3 = r2 * r3
   sub r4, r4, r2   // r4 = r4 - r2
   add r5, r5, r6   // r5 = r5 + r6
@@ -59,7 +59,7 @@ What if we replaced the `sub` instruction with a conditional branch?
 
 ```c
 main:
-  add r1, r2, r3              // r1 = r2 + r3
+  add r1, r2, r6              // r1 = r2 + r6
   mul r3, r2, r3              // r3 = r2 * r3
   beq r6, r7, somewhere_else  // if (r6 == r7) goto somewhere_else
   add r5, r5, r6              // r5 = r5 + r6
