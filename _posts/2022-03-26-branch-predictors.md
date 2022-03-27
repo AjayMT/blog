@@ -571,5 +571,5 @@ I've written enough so I'll conclude with a few short points and some further re
   mine of interesting information.
 - Modern branch predictors are very very good -- consistently >90% accurate. Even static predictors can take advantage of loops and speed up execution by a lot. I would recommend writing some
   small predictable and unpredictable programs and testing them on your machine to see the impact of branch prediction.
-- I was very surprised to learn that dynamic hardware-based predictors are actually way better at prediction than compiler-aided static techniques. This seems obvious now but I was once a rather self-important
+- I was very surprised to learn that dynamic hardware-based predictors are on par with or better than compiler-aided static techniques. This seems obvious now but I was once a rather self-important
   compiler enthusiast; now I seek truth in the hardware.
